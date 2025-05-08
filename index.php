@@ -43,6 +43,13 @@ $edit = $_SESSION['edit'] ?? null;
 <head>
     <title>Perpustakaan</title>
     <link rel="stylesheet" href="style.css">
+    <nav>
+  <ul class="navbar">
+    <li><a href="index.php">Daftar Buku</a></li>
+    <li><a href="anggota.php">Anggota</a></li>
+    <li><a href="peminjaman.php">Peminjaman</a></li>
+  </ul>
+</nav>
 </head>
 <body>
     <h1>Data Buku</h1>
